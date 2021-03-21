@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Diseño Web</title>
+</head>
+<body>
+    <div class="no-pading">
+        <div class="row header shadow-sm">
+            <div class="col-lg-2">
+                <img src="../image/logounad.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-10 align-self-center">
+                <header>
+                    <center><h1 class="fw-bold">HTML5 - LENGUAJE PARA LA WEB</center></h1>
+                </header>
+            </div>
+            <span class="border-bottom"></span>
+        </div>
+        <div class="row content ">
+            <!--Menú-->
+            <div class="col-lg-2">                
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">TEMAS</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="estructura_fundamental.html">Estructura Fundamental</a>
+                                <a class="dropdown-item" href="estructura_semantica.html">Estructura Semántica</a>
+                                <a class="dropdown-item" href="estructura_basica.html">Estructura Básica</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">DIGITALES</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Recurso 1</a>
+                                <a class="dropdown-item" href="#">Recurso 2</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">APRENDIZAJE</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Actividad 1</a>
+                                <a class="dropdown-item" href="#">Actividad 2</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">ACERCA DE</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="../html/autor.html">Autor</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            
+            </div>
+            <!-- Contenido -->
+            <div class="col-lg-10 ">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11 rounded bg-white align-self-center shadow-lg">
+                        <div class="clearfix rounded padding">
+                            <section>
+                                <article>                                    
+                                    <h4><center>ESTRUCTURA BÁSICA DE HTML</center></h4>
+                                    <p>
+                                        Además de las etiquetas ya vistas, existen otras que son básicas dado que con ellas
+                                        se puede construir una página web elemental que permita presentar la información de forma adecuada.
+                                         A continuación, se describen dichas etiquetas:
+                                    </p>
+                                    <p>
+                                        <div class="card codigo">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="../image/estructura_basica.png" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <code>
+                                                            &lt;h1&gt;&lt;/h1&gt;
+                                                            <br>
+                                                            &lt;p&gt;&lt;/p&gt;
+                                                            <br>
+                                                            &lt;a&gt;&lt/a&gt;
+                                                                <br>
+                                                            &lt;img&gt;&lt/img&gt;
+                                                        </code>
+                                                        <p class="card-text"><small class="text-muted">Estructuras básicas de HTML5. Imagen propia</a>
+                                                        </small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    
+                                    <p>
+                                        Las etiquetas <code>&lt;h1&gt;&lt;/h1&gt;</code>, se utilizan para los títulos del sitio web; se pueden
+                                         utilizar <code>&lt;h2&gt;&lt;h3&gt;&lt;h4&gt;&lt;h5&gt;&lt;h6&gt;</code>, cada una de estas, hacen que los títulos sean de menor y mayor tamaño
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;p&gt;&lt;/p&gt;</code>, se utilizan para crear los párrafos de texto
+                                         que serán mostrados en el sitio web
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;a&gt;&lt/a&gt;</code>, se utilizan para crear los enlaces o Links hacia otros
+                                         recursos del sitio web
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;img&gt;&lt/img&gt;</code>, se utilizan para insertar las imágenes que serán
+                                         utilizadas en el sitio web
+                                    </p>
+                                    <p>
+                                        Hasta ahora, hemos visto las etiquetas fundamentales, semánticas y básicas, además de estas etiquetas,
+                                        existen muchas otras, sin embargo estas son las más comunes. Adicionalmente, todas las etiquetas cuentan
+                                         con atributos que son transversales y otros que son específicos. A continuación, se relacionan los
+                                         transversales:
+                                    </p>
+                                    <p>
+                                        <code>id=""</code>, se utiliza para identificar de manera única a cada etiqueta
+                                    </p>
+                                    <p>
+                                        <code>class=""</code>, se utiliza para asignar las clases css para darle estilo y diseño a cada etiqueta
+                                    </p>
+                                    <p>
+                                        <code>name=""</code>, se utiliza para darle un nombre específico a cada etiqueta
+                                    </p>
+                                    <p>
+                                        <code>href=""</code>, se utiliza en la etiqueta <code>&lt;a&gt;</code> para enlazar un recurso y 
+                                        <code>src=""</code> se utiliza para asignar una imagen en la etiqueta <code>&lt;img&gt;</code>
+                                    </p>
+                                    <p>
+                                        Para ampliar la información y profundizar en ella, se recomienda consultar las siguientes recursos 
+                                        en los cuales está soportado todo el contenido aquí presentado
+                                    </p>
+                                    <div class="card border-success mb-3">
+                                        <div class="card-header">Referencias</div>
+                                        <div class="card-body text-secondary">
+                                            <p>w3schools.com (s.f.). HMTL Basic. Tomado de: <a href="https://www.w3schools.com/html/html_basic.asp">https://www.w3schools.com/html/html_basic.asp</a></p>
+                                            <p>w3schools.com (s.f.). HMTL Attributes. Tomado de: <a href="https://www.w3schools.com/html/html_attributes.asp">https://www.w3schools.com/html/html_attributes.asp</a></p>
+                                            <p>w3schools.com (s.f.). HMTL Headings. Tomado de: <a href="https://www.w3schools.com/html/html_headings.asp">https://www.w3schools.com/html/html_headings.asp</a></p>
+                                            <p>w3schools.com (s.f.). HMTL Paragraphs. Tomado de: <a href="https://www.w3schools.com/html/html_paragraphs.asp">https://www.w3schools.com/html/html_paragraphs.asp</a></p>
+                                            <p>w3schools.com (s.f.). HMTL Links. Tomado de: <a href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com/html/html_links.asp</a></p>
+                                            <p>w3schools.com (s.f.). HMTL Images. Tomado de: <a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row footer">
+            <span class="border-top"></span>
+            <div class="col-lg-12 align-self-center fw-lighter text-center fw-bold" >
+                <footer>
+                    Email de Contacto: <a href="mailto:emov19@gmail.com">emov19@gmail.com</a>
+                    || Skype: gdocumentalcct                    
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

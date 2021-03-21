@@ -1,0 +1,39 @@
+html, body{
+    margin:0px;
+    height:100%;
+}
+
+body{
+    background-color: #edf2f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.no-pading{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.content{
+    min-height: calc(100% - 170px);
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.codigo{
+    max-width:900px;
+}
+
+.header{
+    height:130px;
+    background-color: white;
+}
+
+.footer{
+    height:39px;
+    background-color:white;
+}
