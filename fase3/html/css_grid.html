@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Document</title>
+    <title>Diseño Web</title>
 </head>
 <body>
     <div class="no-pading">
@@ -24,7 +24,7 @@
             </div>
             <span class="border-bottom"></span>
         </div>
-        <div class="row content">
+        <div class="row content ">
             <!--Menú-->
             <div class="col-lg-2">                
                 <nav class="navbar">
@@ -68,16 +68,70 @@
             
             </div>
             <!-- Contenido -->
-            <div class="col-lg-10">
+            <div class="col-lg-10 ">
                 <div class="row justify-content-center">
-                    <div class="col-lg-10 rounded bg-white align-self-center shadow-lg">
+                    <div class="col-lg-11 rounded bg-white align-self-center shadow-lg">
                         <div class="clearfix rounded padding">
                             <section>
                                 <article>                                    
-                                    <h4><center>APOYO A LA ESTRUCTURA BÁSICA DE HTML</center></h4>                                    
-                                    <center>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mIzSgXuXxOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </center>
+                                    <h4><center>CSS GRID LAYOUT</center></h4>
+                                    <p>
+                                        De acuerdo con la w3schools, el CSS Grid Layout ofrece un sistema de capas basado en grilla o rejilla, con filas y columnas, lo cual hace más fácil el diseño de páginas web
+                                        sin tener que usar flotadores o posicionamiento:
+                                    </p>
+                                    <p>
+                                        <div class="card codigo">
+                                            <div class="row g-0">
+                                                <div class="col-md-6">
+                                                    <img src="../image/css_grid.png" alt="">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="card-body">
+                                                        <code>
+                                                            &lt;div class="grid-container"&gt;
+                                                            <br>
+                                                             &lt;div class="grid-item"&gt;1&lt;/div&gt;
+                                                            <br>
+                                                            &lt;div class="grid-item"&gt;2&lt;/div&gt;
+                                                             <br>
+                                                            &lt;div class="grid-item"&gt;3&lt;/div&gt;
+                                                            <br>
+                                                            &lt;/div&gt;
+                                                        </code>
+                                                        <p class="card-text"><small class="text-muted">CSS GRID LAYOUT. Tomada de: https://www.w3schools.com/css/css_grid.asp</a>
+                                                        </small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    
+                                    <p>
+                                        Las etiquetas <code>&lt;div class="grid-container"&gt;&lt;/div&gt;</code>, se utilizan para declarar que se utilizará el sistema GRID LAYOUT;
+                                         se incluye clase CSS que permite trabajar bajo este esquema
+                                         
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;div class="grid-item"&gt;1&lt;/div&gt;</code>, se utilizan para crear cada una de las celdas
+                                         que conformarán a la grilla
+                                    </p>
+                                    <p>
+                                        Se requiere el siguiente código CSS <code>.grid-container {
+                                            display: grid;
+                                          }</code>, para que se pueda utilizar el esquema Grid Layout
+                                    </p>
+                                    <p>
+                                        Para ampliar la información y profundizar en ella, se recomienda consultar las siguientes recursos 
+                                        en los cuales está soportado todo el contenido aquí presentado
+                                    </p>
+                                    <div class="card border-success mb-3">
+                                        <div class="card-header">Referencias</div>
+                                        <div class="card-body text-secondary">
+                                            <p>w3schools.com (s.f.). CSS Grid Layout Module. Tomado de: <a href="https://www.w3schools.com/css/css_grid.asp">https://www.w3schools.com/css/css_grid.asp</a></p>
+                                            <p>w3schools.com (s.f.). CSS Grid Container. Tomado de: <a href="https://www.w3schools.com/css/css_grid_container.asp">https://www.w3schools.com/css/css_grid_container.asp</a></p>
+                                            <p>w3schools.com (s.f.). CSS Grid Item. Tomado de: <a href="https://www.w3schools.com/css/css_grid_item.asp">https://www.w3schools.com/css/css_grid_item.asp</a></p>
+                                        </div>
+                                    </div>
                                 </article>
                             </section>
                         </div>
