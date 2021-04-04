@@ -18,6 +18,97 @@ body{
     padding-bottom: 10px
 }
 
+/* Sistema de Grillas*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #edf2f9;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/*Elementos de la Grilla*/
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    font-size: 30px;
+    font-size: 15px;
+    
+}
+
+/* Logo de la UNAD*/
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 130px;
+    width:250px;
+    background-color:white;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+/* Título de la Página*/
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: white;
+}
+
+/*Barra de navegación de la página*/
+.item2{
+    width: 250px;
+    padding: 12px 0px 0px 12px;
+    
+}
+/*Contenido de la página*/
+.item3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: calc(100vw - 520px);
+    padding-top: 12px;
+}
+
+.item2, .item3, .item6{
+    min-height: calc(100vh - 180px);
+}
+
+.round{
+    border-radius: 5px;
+    background-color:white;
+    width: 98%;
+    margin: auto;
+    padding-left: 10px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+/*TimeLine Facebook de la UNAD*/
+
+.item6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    width: 270px;
+    padding-top: 12px;
+    
+    
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:white;
+    height: 50px;
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .content{
     min-height: calc(100% - 170px);
     padding-top:25px;
