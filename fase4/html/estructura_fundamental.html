@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="no-pading">
+        <div class="row header shadow-sm">
+            <div class="col-lg-2">
+                <img src="../image/logounad.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-10 align-self-center">
+                <header>
+                    <center><h1 class="fw-bold">HTML5 - LENGUAJE PARA LA WEB</center></h1>
+                </header>
+            </div>
+            <span class="border-bottom"></span>
+        </div>
+        <div class="row content">
+            <!--Menú-->
+            <div class="col-lg-2">                
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">TEMAS</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="estructura_fundamental.html">Estructura Fundamental</a>
+                                <a class="dropdown-item" href="estructura_semantica.html">Estructura Semántica</a>
+                                <a class="dropdown-item" href="estructura_basica.html">Estructura Básica</a>
+                                <a class="dropdown-item" href="css_grid.html">CSS Grid Layout</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">DIGITALES</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="estructura_fundamental_digital.html">Apoyo a los fundamentos</a>
+                                <a class="dropdown-item" href="estructura_semantica_digital.html">Apoyo a la semántica</a>
+                                <a class="dropdown-item" href="estructura_basica_digital.html">Apoyo a la estructura básica</a>
+                                <a class="dropdown-item" href="css_grid_digital.html">Apoyo a CSS Grid Layout</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">APRENDIZAJE</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="aprendizaje_actividad_1.html">Actividad 1</a>
+                                <a class="dropdown-item" href="aprendizaje_actividad_2.html">Actividad 2</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">ACERCA DE</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="../html/autor.html">Autor</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            
+            </div>
+            <!-- Contenido -->
+            <div class="col-lg-10">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 rounded bg-white align-self-center shadow-lg">
+                        <div class="clearfix rounded padding">
+                            <section>
+                                <article>                                    
+                                    <h4><center>ESTRUCTURA FUNDAMENTAL DE HTML</center></h4>
+                                    <p>
+                                        Las páginas web estan construidas mediante lenguaje HTML el cual se
+                                        encuentra en su versión 5. El acrónimo HTML se refiere a HyperText
+                                        Markup Language, que en español se podría traducir como Lenguaje de
+                                        Marcado de Hypertexto. No es un lenguaje de programación en sí mismo,
+                                        pero es una especie de Lenguaje y este es interpretado por navegadores.
+                                    </p>
+                                    <p>
+                                        Para que un navegador pueda interpretar adecuadamente una página web, esta
+                                        debe tener una estructura fundamental que está compuesta por las siguientes
+                                        etiquetas:
+                                    </p>
+                                    <p>
+                                        <div class="card codigo">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="../image/estructura_fundamental.png" alt="" class="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <code>
+                                                            &lt;!DOCTYPE html&gt;
+                                                            <br>
+                                                            &lt;html lang="en"&gt;
+                                                            <br>
+                                                                &lt;head&gt;&lt/head&gt;
+                                                                <br>
+                                                                &lt;body&gt;&lt/body&gt;
+                                                                <br>
+                                                            &lt;/html&gt;
+                                                        </code>
+                                                        <p class="card-text"><small class="text-muted">Estructura fundamental en editor de código. Imagen Propia.</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    
+                                    <p>
+                                        La etiqueta <code>&lt;!DOCTYPE html&gt;</code>, indica al navegador web
+                                        que el código que va a interpretar es HTML5
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;html lang="en"&gt;&lt;/html&gt;</code>, indican al navegador web
+                                        que todo lo que están dentro de ellas es el código HTML5
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;head&gt;&lt/head&gt;</code>, indican al navegador web
+                                        que todo lo que está dentro de ellas son archivos de código css, javascript entre otras configuraciones
+                                    </p>
+                                    <p>
+                                        Las etiquetas <code>&lt;body&gt;&lt/body&gt;</code>, indican al navegador web
+                                        que todo lo que está dentro de ellas corresponde al código HTML que contiene la información que va a
+                                        ser presentada en la página web
+                                    </p>
+                                    <p>
+                                        Para ampliar la información y profundizar en ella, se recomienda consultar las siguientes recursos 
+                                        en los cuales está soportado todo el contenido aquí presentado
+                                    </p>
+                                    <div class="card border-success mb-3">
+                                        <div class="card-header">Referencias</div>
+                                        <div class="card-body text-secondary">
+                                            <p>w3schools.com (s.f.). HMTL Basic. Tomado de: <a href="https://www.w3schools.com/html/html_basic.asp">https://www.w3schools.com/html/html_basic.asp</a></p>
+                                            <p>w3schools.com (s.f.). HMTL Head. Tomado de: <a href="https://www.w3schools.com/html/html_head.asp">https://www.w3schools.com/html/html_head.asp</a></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row footer">
+            <span class="border-top"></span>
+            <div class="col-lg-12 align-self-center fw-lighter text-center fw-bold" >
+                <footer>
+                    Email de Contacto: <a href="mailto:emov19@gmail.com">emov19@gmail.com</a>
+                    || Skype: gdocumentalcct                    
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
