@@ -1,0 +1,4 @@
+# Permitir acceso completo al sitio
+# por parte de todos los crawlers 
+User-agent: *
+Allow: /
